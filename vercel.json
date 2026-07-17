@@ -1,14 +1,4 @@
 {
   "buildCommand": "npm run build:vercel",
-  "outputDirectory": "dist",
-  "rewrites": [
-    {
-      "source": "/roulette",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/roulette/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "outputDirectory": "site"
 }
